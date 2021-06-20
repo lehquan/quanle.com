@@ -1,0 +1,40 @@
+@media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
+  /*#profile-img {*/
+  /*  display: none;*/
+  /*}*/
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* For portrait layouts only */
+  #profile-img-panel {
+    /*display: none;*/
+  }
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* For landscape layouts only */
+  #profile-img-panel {
+    /*display: block;*/
+  }
+}
+/* ----------- iPhone 4 and 4S ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+/* Portrait */
+/* Landscape */
+
+/*# sourceMappingURL=devices.css.map */

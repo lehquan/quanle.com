@@ -27,26 +27,7 @@
         display: flex;
       }
     }
-    @media only screen and (device-width: 768px) {
-      /* For general iPad layouts */
-      /*#profile-img {*/
-      /*  display: none;*/
-      /*}*/
-    }
-
-    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
-      /* For portrait layouts only */
-      #profile-img-panel {
-        display: none;
-      }
-    }
-
-    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
-      /* For landscape layouts only */
-      #profile-img-panel {
-        display: block;
-      }
-    }
+    
   </style>
 </head>
 
@@ -73,16 +54,14 @@
   </nav>
 
   <!-- Header -->
-  <section class="hero is-white is-fullheight">
+  <section class="hero is-white">
     <div class="hero-body">
       <div class="container">
         <div class="columns is-vcentered reverse-columns">
-          <div class="column
-          is-10-mobile is-offset-1-mobile
-          is-10-tablet is-offset-1-tablet
-          is-5-desktop is-offset-1-desktop
-          is-5-widescreen is-offset-1-widescreen
-          is-5-fullhd is-offset-1-fullhd" data-aos="fade-down">
+          <div class="column is-10-mobile is-offset-1-mobile
+          is-4-desktop is-offset-1-desktop
+          is-4-widescreen is-offset-1-widescreen
+          is-4-fullhd is-offset-1-fullhd">
             <p>Hello! I am</p>
             <h1 class="title is-1">
               Hong-Quan, Le
@@ -103,7 +82,6 @@
           </div>
           <div id="profile-img-panel" data-aos="fade-right" class="column
           is-10-mobile is-offset-1-mobile
-          is-10-tablet is-offset-1-tablet
           is-4-desktop is-offset-1-desktop
           is-4-widescreen is-offset-1-widescreen
           is-4-fullhd is-offset-1-fullhd">
@@ -756,7 +734,7 @@
   </section>
 
   <!-- Personal Skills -->
-   <section class="section" id="personal-skills">
+   <!--<section class="section" id="personal-skills">
     <nav class="level">
       <div class="level-item has-text-centered">
         <div class="my-item">
@@ -795,7 +773,7 @@
         </div>
       </div>
     </nav>
-  </section>
+  </section>-->
 
   <!-- Outline -->
   <section id="outline" class="section call-to-action is-primary has-text-centered">

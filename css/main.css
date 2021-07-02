@@ -590,6 +590,84 @@ body {
   color: #F8F8F8;
 }
 
+#archive {
+  background: #151D38;
+}
+#archive .title {
+  color: #ccd6f6;
+}
+#archive .subtitle {
+  color: #64ffda;
+  margin-bottom: 80px;
+}
+#archive .table td, #archive .table th {
+  border: none;
+}
+#archive .table tr:hover {
+  background-color: rgba(136, 146, 176, 0.1);
+}
+#archive table {
+  background-color: #151D38;
+}
+#archive table thead th {
+  color: #8892b0;
+}
+#archive table tbody th {
+  color: #64ffda;
+  font-weight: normal;
+}
+#archive table tbody td.project-title {
+  color: #ccd6f6;
+  font-size: 1rem;
+  font-weight: 600;
+}
+#archive table tbody td.project-company {
+  color: #8892b0;
+  white-space: nowrap;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+#archive table tbody td.project-company span {
+  font-weight: lighter;
+  color: #8892b0;
+}
+#archive table tbody td.project-tech {
+  color: #8892b0;
+  line-height: 1.5;
+  font-weight: normal;
+  font-size: 0.8em;
+}
+#archive table tbody td.project-tech span {
+  display: inline-block;
+}
+#archive table tbody td.project-tech .separator {
+  color: #8892b0;
+  margin: 0px 5px;
+}
+#archive table tbody td.project-links {
+  min-width: 100px;
+}
+#archive table tbody td.project-links img {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+#archive table tbody td.project-links a {
+  color: #ccd6f6;
+}
+#archive table tbody td.project-links a:hover {
+  color: #64ffda;
+}
+#archive table tbody td.project-links span {
+  font-weight: lighter;
+  color: #8892b0;
+}
+#archive table tbody td.project-links div {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
 #personal-skills {
   margin-top: 150px;
 }

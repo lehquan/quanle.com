@@ -2,6 +2,7 @@ $fog: #F8F8F8;
 $purple: #6A2DED;
 $dark-purple: #151D38;
 $tint: #64ffda;
+$fog-gray:#ccd6f6;
 
 html, body {
   height: 100%;
@@ -629,6 +630,91 @@ body {
     }
   }
 }
+
+#archive {
+  background: $dark-purple;
+  .title {
+    color: $fog-gray;
+  }
+  .subtitle {
+    color: $tint;
+    margin-bottom: 80px;
+  }
+  .table td, .table th {
+    border: none;
+  }
+  .table tr:hover {
+    background-color: rgba(#8892b0, .1);
+  }
+  table {
+    background-color: $dark-purple;
+    overflow-x: hidden;
+    thead {
+      th {
+        color: #8892b0
+      }
+    }
+    tbody {
+      th {
+        color: $tint;
+        font-weight: normal;
+      }
+      td.project-title {
+        color: #ccd6f6;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+      td.project-company {
+        color: #8892b0;
+        white-space: nowrap;
+        font-weight: normal;
+        font-size: 0.8rem !important;
+        span {
+          font-weight: lighter;
+          color: #8892b0;
+        }
+      }
+      td.project-tech {
+        color: #8892b0;
+        line-height: 1.5;
+        font-weight: normal;
+        font-size: 0.8em;
+        span {
+          display: inline-block;
+        }
+        .separator {
+          color: #8892b0;
+          margin: 0px 5px;
+        }
+      }
+      td.project-links {
+        min-width: 100px;
+        img {
+          width: 20px;
+          height: 20px;
+          margin-right: 15px;
+        }
+        a {
+          color: #ccd6f6;
+          &:hover {
+            color: #64ffda;
+          }
+        }
+        span {
+          font-weight: lighter;
+          color: #8892b0;
+        }
+      }
+      td.project-links div {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+      }
+    }
+
+  }
+}
+
 
 #personal-skills {
   margin-top: 150px;
